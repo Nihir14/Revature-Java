@@ -1,0 +1,28 @@
+Create account Deposit money Withdraw money Check balance create 3 users account entering userid 1: i need to display userid 1 account details cmplete this task entering userid 2: i need to display userid 2 account details
+
+List menus : 1)Create account 2) Withdraw money 3) Deposit money 4) Display by user 0) Exit Enter 1: Enter the numbers of users: 2 Enter the account details of user1: Name,account number,amount,email Enter the account details of user 2: Name,account number,amount,email 1 ---above has to continue 2 ---enter the amount for withdraw---600 ---check for negative 3---enter the amount od deposit ---it show final amount as 500+500=1000 4 –Enter the userid :2 ----Display the user details like Name,Account number,email,Balance amount Exit – 0 It should in loop 1 ….exit the program … cmplete this task als
+
+Scenario A: Library Management SystemYou're building a library management system. Design a Book class that stores information about books (title, author, ISBN, available copies). Then create objects for 3 different books and implement a method to check out a book.
+Questions:
+What attributes (data members) would your Book class need?
+What methods would be essential?
+How would you track whether a book is available?
+
+Vehicle Rental SystemA rental company has Cars, Motorcycles, and Trucks. All vehicles have registration numbers, models, and rental rates, but each calculates rental costs differently (cars by day, motorcycles by hour, trucks by day + mileage).
+Questions:
+Design the inheritance hierarchy
+Which methods should be overridden in child classes?
+What's the benefit of using inheritance here vs separate classes?
+
+Create a UserAccount class that stores usernames and passwords. Passwords should never be directly accessible and must meet complexity requirements (min 8 characters, at least one number).
+Questions:
+How do you hide the password from direct access?
+How would you implement password validation?
+What methods would you expose publicly?
+
+An e-commerce site accepts multiple payment methods: Credit Card, PayPal, Cryptocurrency. Each processes payments differently but all need a processPayment() method.
+Questions:
+Design a Payment interface/base class
+How do different payment types implement processPayment() differently?
+Demonstrate runtime polymorphism with different payment objects
+ 
